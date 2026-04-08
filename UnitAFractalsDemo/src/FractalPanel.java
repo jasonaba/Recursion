@@ -54,7 +54,7 @@ public class FractalPanel extends JPanel implements MouseListener{
 		// TODO Auto-generated method stub
 		if(e.getButton()==MouseEvent.BUTTON1) {
 			depth = Math.min(depth++, 15);
-		}else if(e.getButton()==MouseEvent.BUTTON2)
+		}else if(e.getButton()==MouseEvent.BUTTON3)
 			depth = Math.max(1,  depth--);
 		this.repaint();//repaints with each press
 	}
