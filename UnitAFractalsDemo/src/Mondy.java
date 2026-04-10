@@ -1,4 +1,5 @@
 import java.awt.Color;
+import java.awt.event.KeyEvent;
 
 import javax.swing.JFrame;
 
@@ -10,11 +11,13 @@ public class Mondy {
 		frame.setTitle("Fractal Fun Rectangles");
 		frame.setSize(1000,800);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setVisible(true);
+		
 		
 		//add panel
 		FractalPanel panel = new FractalPanel(5, 1000, 800);
 		frame.add(panel);
+		frame.setVisible(true);
 	}
 
 }
+
